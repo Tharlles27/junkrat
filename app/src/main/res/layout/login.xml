@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2DD67B"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:gravity="center|top"
+        android:orientation="vertical"
+        android:paddingTop="100dp">
+
+        <LinearLayout
+            android:id="@+id/input_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/TextAmountConfirm"
+                android:textSize="50dp"
+                android:elevation="10dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="$1704.38" />
+
+            <EditText
+                android:id="@+id/editTextLoginLoginID"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:hint="Login Id"
+                android:inputType="text"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                android:visibility="gone" />
+
+
+            <EditText
+                android:id="@+id/editTextLoginPassword"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                android:visibility="gone"
+
+
+                />
+
+            <RadioGroup
+                android:id="@+id/login_type_radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:visibility="invisible">
+
+                <RadioButton
+                    android:id="@+id/test_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="TEST"
+                    android:textSize="20sp"
+                    android:visibility="gone" />
+
+                <RadioButton
+                    android:id="@+id/prod_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PROD"
+                    android:textSize="20sp"
+                    android:visibility="gone" />
+
+                <RadioButton
+                    android:id="@+id/hotspot_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HOTSPOT"
+                    android:textSize="20sp"
+                    android:visibility="gone" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonLoginLoginIn"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_below="@+id/input_container"
+            android:layout_alignLeft="@+id/input_container"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="30dp"
+            android:elevation="10dp"
+            android:gravity="center"
+            android:text="Confirm payment"
+            android:textColor="@android:color/black"
+            android:textSize="22dp" />
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_below="@+id/input_container"
+            android:layout_alignLeft="@+id/input_container"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="280dp"
+            android:layout_marginRight="30dp"
+            android:backgroundTint="#00FFFFFF"
+            android:text="BACK TO PAYMENT"
+            android:textColor="@android:color/black"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+
+</LinearLayout>

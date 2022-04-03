@@ -1,0 +1,253 @@
+<RelativeLayout
+    android:id="@+id/layout_root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@null"
+    android:orientation="vertical">
+
+    <!--include layout="@layout/toolbarsdk"></include-->
+    <LinearLayout
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:id="@+id/layout_signature_container"
+        android:padding="7dip">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <RelativeLayout
+                        android:id="@+id/layout_sign_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".4"
+                        android:background="@drawable/rect_border"
+                        android:animateLayoutChanges="true">
+                        <net.authorize.aim.emv.SignatureCaptureView
+                            android:id="@+id/signatureCaptureSignatureReviewsign"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="Please Sign Here"
+                            android:textColor="@color/quickchip_signature_light_grey"
+                            android:textSize="20sp"
+                            android:id="@+id/signature_hint_text_view"/>
+                        <RadioGroup
+                            android:id="@+id/tipOptionRadioGroup"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:orientation="horizontal"
+                            android:layout_alignParentStart="true">
+                            <android.support.v7.widget.AppCompatRadioButton
+                                android:id="@+id/quickChipSignatureReviewTipOptionButton0"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginEnd="6dp"
+                                android:gravity="center"
+                                android:layout_weight="1"
+                                android:checked="true"
+                                android:text="No Tip"
+                                android:textColor="@drawable/tip_option_text"
+                                android:background="@drawable/tip_option_radio_button"
+                                android:button="@android:color/transparent"/>
+
+                            <android.support.v7.widget.AppCompatRadioButton
+                                android:id="@+id/quickChipSignatureReviewTipOptionButton1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginEnd="6dp"
+                                android:gravity="center"
+                                android:layout_weight="1"
+                                android:text="5%"
+                                android:textColor="@drawable/tip_option_text"
+                                android:background="@drawable/tip_option_radio_button"
+                                android:button="@android:color/transparent"/>
+                            <android.support.v7.widget.AppCompatRadioButton
+                                android:id="@+id/quickChipSignatureReviewTipOptionButton2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginEnd="6dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="10%"
+                                android:textColor="@drawable/tip_option_text"
+                                android:background="@drawable/tip_option_radio_button"
+                                android:button="@android:color/transparent"/>
+                            <android.support.v7.widget.AppCompatRadioButton
+                                android:id="@+id/quickChipSignatureReviewTipOptionButton3"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginEnd="6dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="15%"
+                                android:textColor="@drawable/tip_option_text"
+                                android:background="@drawable/tip_option_radio_button"
+                                android:button="@android:color/transparent"/>
+                            <android.support.v7.widget.AppCompatRadioButton
+                                android:id="@+id/quickChipSignatureReviewTipOptionButton4"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="Custom"
+                                android:textColor="@drawable/tip_option_text"
+                                android:background="@drawable/tip_option_radio_button"
+                                android:button="@android:color/transparent"/>
+                        </RadioGroup>
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="CLEAR SIGNATURE"
+                            style="@style/Widget.AppCompat.Button.Borderless"
+                            android:textSize="10sp"
+                            android:textColor="@color/quickchip_signature_blue"
+                            android:id="@+id/buttonSignatureReviewclear"
+                            android:layout_alignParentEnd="true" />
+
+                        <TextView
+                            android:id="@+id/text_cross"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="X"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentLeft="true"/>
+
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/textViewSignatureReviewAcknowledgement"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="@string/signature_agreement"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:id="@+id/textViewSignatureAmount"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textSize="30sp"
+                        android:text="$ 50.00 ($ 40.00 + $ 20.00 tip)" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal"
+                        >
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:textColor="@color/white"
+                            android:text="Cancel"
+                            style="@style/button_material"
+                            android:textSize="16sp"
+                            android:id="@+id/emvcancel" />
+
+
+                        <Button
+                            android:layout_marginStart="20dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/buttonSignatureReviewAuthorize"
+                            android:text="Authorize"
+                            android:textColor="@color/white"
+                            style="@style/button_material"
+                            android:textSize="16sp"
+                            android:layout_weight="1"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/signature_review_custom_tip_container_view"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:textColor="@color/quickchip_signature_blue"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:id="@+id/signature_review_custom_tip_cancel_button"
+            />
+
+        <LinearLayout
+            android:layout_below="@id/signature_review_custom_tip_cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20sp"
+                android:id="@+id/signature_review_custom_tip_total_amount"
+                android:text="$ 10.00"/>
+            <TextView
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:layout_gravity="center_horizontal"
+                android:text="TIP AMOUNT:"
+                android:gravity="center"/>
+            <EditText
+                android:inputType="numberDecimal"
+                android:hint="0.00"
+                android:textSize="20sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/signature_view_custom_tip_editText" />
+            <Button
+                android:id="@+id/signature_view_custom_tip_confirm_button"
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:text="Add Tip"
+                android:textColor="@color/quickchip_signature_white"
+                android:background="@color/quickchip_signature_blue"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

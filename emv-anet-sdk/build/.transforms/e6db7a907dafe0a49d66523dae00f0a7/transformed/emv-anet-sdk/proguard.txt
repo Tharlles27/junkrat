@@ -1,0 +1,1762 @@
+
+
+
+
+
+
+
+-keepclassmembers,allowshrinking,allowobfuscation class bbota01z.bbota01z.bbota01z.f {
+    void ?();
+}
+
+-keepclassmembers,allowobfuscation class com.bbpos.bb03z.? {
+    <init>();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bb03z.? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bb03z.? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bb03z.?$If {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bb03z.?$? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bb03z.?$? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bb03z.?$If {
+    void ?();
+}
+
+-keep,allowshrinking,allowobfuscation class com.bbpos.bb03z.? {
+    void ??();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bb03z.? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bb03z.l {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bb03z.l$a {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bb03z.l$b {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bb03z.l$c {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bb03z.l$d {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bb03z.l$e {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bb03z.l$f {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bb03z.l$g {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bb03z.l$i {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bb03z.l$j {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bb03z.l$k {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bb03z.l$l {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bb03z.l$m {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bb03z.l$o {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bb03z.l$p {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bb03z.l$q {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bb03z.l$r {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bb03z.l$s {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bb03z.l$t {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bb03z.l$u {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bb03z.l$v {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bb03z.l$w {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bb03z.l$x {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bb03z.? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bb03z.?$? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bb03z.? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bb03z.? {
+    void ?();
+}
+
+-keepclassmembers,allowobfuscation class com.bbpos.bb03z.? {
+    <init>();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bb03z.? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BBDeviceController {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BBDeviceController$AccountSelectionResult {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BBDeviceController$AmountInputType {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BBDeviceController$AudioAutoConfigError {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BBDeviceController$BatteryStatus {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BBDeviceController$CardScheme {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BBDeviceController$CheckCardMode {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BBDeviceController$CheckCardResult {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BBDeviceController$ConnectionMode {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BBDeviceController$ConnectionModeInternal {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BBDeviceController$ConnectionState {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BBDeviceController$ContactlessStatus {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BBDeviceController$ContactlessStatusTone {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BBDeviceController$CurrencyCharacter {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BBDeviceController$DisplayPromptOption {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BBDeviceController$DisplayPromptResult {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BBDeviceController$DisplayText {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BBDeviceController$EmvOption {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BBDeviceController$EncryptionKeySource {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BBDeviceController$EncryptionKeyUsage {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BBDeviceController$EncryptionMethod {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BBDeviceController$EncryptionPaddingMethod {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BBDeviceController$Error {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BBDeviceController$LEDMode {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BBDeviceController$NfcDetectCardResult {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BBDeviceController$NotifyID {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BBDeviceController$PhoneEntryResult {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BBDeviceController$PinEntryResult {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BBDeviceController$PinEntrySource {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BBDeviceController$PrintResult {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BBDeviceController$ReadNdefRecord {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BBDeviceController$SerialDriverStatus {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BBDeviceController$SessionError {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BBDeviceController$TerminalSettingStatus {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BBDeviceController$TransactionResult {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BBDeviceController$TransactionType {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BBDeviceController$VASProtocolMode {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BBDeviceController$VASResult {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BBDeviceController$VASTerminalMode {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BluetoothManager {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.BluetoothManager$NotifyID {
+    void ?();
+}
+
+-keepclassmembers,allowobfuscation class com.bbpos.bbdevice.? {
+    <init>();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.?$If {
+    void ?();
+}
+
+-keepclassmembers,allowobfuscation class com.bbpos.bbdevice.d {
+    <init>();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.d {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.? {
+    void ?();
+}
+
+-keep,allowshrinking,allowobfuscation class com.bbpos.bbdevice.?
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.? {
+    void ?();
+}
+
+-keep,allowshrinking,allowobfuscation class com.bbpos.bbdevice.?
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.ota.BBDeviceOTAController {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.ota.BBDeviceOTAController$BBDeviceOTAControllerState {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.ota.BBDeviceOTAController$ConfigType {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.ota.BBDeviceOTAController$FirmwareType {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.ota.BBDeviceOTAController$OTAResult {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.ota.BBDeviceOTAController$TargetVersionType {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.ota.BBDeviceOTAController$UpdateType {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.ota.DES {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.ota.if {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.ota.? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.ota.? {
+    void ?();
+}
+
+-keepclassmembers,allowobfuscation class com.bbpos.bbdevice.ota.? {
+    <init>();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.ota.? {
+    void ?();
+}
+
+-keepclassmembers,allowobfuscation class com.bbpos.bbdevice.ota.? {
+    <init>();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.ota.? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.ota.? {
+    void ?();
+}
+
+-keepclassmembers,allowobfuscation class com.bbpos.bbdevice.ota.? {
+    <init>();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.ota.?$? {
+    void ?();
+}
+
+-keep,allowshrinking,allowobfuscation class com.bbpos.bbdevice.?
+
+-keepclassmembers,allowobfuscation class com.bbpos.bbdevice.? {
+    <init>();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice.? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.SerialPort {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.?$? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.?$? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.?$if {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.?$? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.? {
+    void ??();
+}
+
+-keepclassmembers,allowobfuscation class com.bbpos.bbdevice001.? {
+    <init>();
+}
+
+-keepclassmembers,allowobfuscation class com.bbpos.bbdevice001.? {
+    <init>();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.e$a {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.e$aa {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.e$ab {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.e$ac {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.e$ad {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.e$ae {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.e$af {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.e$ag {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.e$ah {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.e$ai {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.e$aj {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.e$ak {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.e$b {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.e$d {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.e$e {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.e$f {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.e$g {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.e$h {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.e$i {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.e$j {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.e$k {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.e$l {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.e$m {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.e$n {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.e$o {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.e$p {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.e$q {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.e$s {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.e$u {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.e$v {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.e$w {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.e$x {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.e$y {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.e$z {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.f {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.f$a {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.f$aa {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.f$ab {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.f$ac {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.f$ad {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.f$ae {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.f$af {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.f$ag {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.f$ah {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.f$ai {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.f$aj {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.f$ak {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.f$al {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.f$am {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.f$an {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.f$ao {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.f$b {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.f$c {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.f$e {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.f$f {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.f$g {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.f$h {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.f$i {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.f$j {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.f$k {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.f$l {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.f$m {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.f$n {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.f$o {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.f$p {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.f$q {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.f$r {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.f$s {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.f$t {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.f$v {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.f$y {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.f$z {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.? {
+    void ??();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.?$? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.h {
+    void ?();
+}
+
+-keep,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.?$if {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.ioctrl {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.bbdevice001.? {
+    void ?();
+}
+
+-keepclassmembers,allowobfuscation class com.bbpos.bbdevice001.? {
+    <init>();
+}
+
+-keepclassmembers,allowobfuscation class com.bbpos.bbdevice001.? {
+    <init>();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.emvswipe.EmvSwipeController$AutoConfigError {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.emvswipe.EmvSwipeController$BatteryStatus {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.emvswipe.EmvSwipeController$CheckCardMode {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.emvswipe.EmvSwipeController$CheckCardResult {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.emvswipe.EmvSwipeController$ConnectionMode {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.emvswipe.EmvSwipeController$DisplayText {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.emvswipe.EmvSwipeController$EmvOption {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.emvswipe.EmvSwipeController$EncryptionKeySource {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.emvswipe.EmvSwipeController$EncryptionKeyUsage {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.emvswipe.EmvSwipeController$EncryptionMethod {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.emvswipe.EmvSwipeController$EncryptionPaddingMethod {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.emvswipe.EmvSwipeController$Error {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.emvswipe.EmvSwipeController$NfcDataExchangeStatus {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.emvswipe.EmvSwipeController$ReferralResult {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.emvswipe.EmvSwipeController$StartEmvResult {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.emvswipe.EmvSwipeController$TerminalSettingStatus {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.emvswipe.EmvSwipeController$TransactionResult {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.emvswipe.EmvSwipeController$TransactionType {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.emvswipe.? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.emvswipe.? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.emvswipe.?$? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.emvswipe.?$if {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.emvswipe.?$? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.emvswipe.?$? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.emvswipe.? {
+    void ??();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.emvswipe.? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.emvswipe.? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.emvswipe.?$? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.emvswipe.? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.emvswipe.? {
+    void ?();
+}
+
+-keepclassmembers,allowobfuscation class com.bbpos.emvswipe.? {
+    <init>();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.emvswipe.? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.y.? {
+    void ??();
+}
+
+-keep,allowshrinking,allowobfuscation class com.bbpos.y.if
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.y.? {
+    void ?();
+}
+
+-keep,allowshrinking,allowobfuscation class com.bbpos.y.?
+
+-keep,allowshrinking,allowobfuscation class com.bbpos.y.?
+
+-keepclassmembers,allowobfuscation class com.bbpos.y.? {
+    <init>();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.y.? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.y.? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.y.r {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.y.r$a {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.y.r$b {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.y.r$c {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.y.r$d {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.y.r$e {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.y.r$f {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.y.r$g {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.y.r$h {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.y.r$j {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.y.r$k {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.y.r$l {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.y.r$m {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.y.r$n {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.y.r$o {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.y.r$p {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.y.r$q {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.If$? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.If$? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.If$if {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.?$? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.J {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.? {
+    void ?();
+}
+
+-keep,allowshrinking,allowobfuscation class com.bbpos.z.?
+
+-keepclassmembers,allowobfuscation class com.bbpos.z.? {
+    <init>();
+}
+
+-keepclassmembers,allowobfuscation class com.bbpos.z.? {
+    <init>();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.R {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.e {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.e$a {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.e$c {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.e$d {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.e$e {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.e$f {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.e$g {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.e$h {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.e$i {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.e$j {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.e$k {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.e$l {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.e$m {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.e$n {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.e$p {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.e$q {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.e$r {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.e$s {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.e$t {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.e$u {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.e$v {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.e$w {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.e$x {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.e$y {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.? {
+    void ?();
+}
+
+-keep,allowshrinking,allowobfuscation class com.bbpos.z.? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.?$If {
+    void ?();
+}
+
+-keep,allowshrinking,allowobfuscation class com.bbpos.z.? {
+    void ??();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.? {
+    void ??();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.? {
+    void ?();
+}
+
+-keepclassmembers,allowobfuscation class com.bbpos.z.? {
+    <init>();
+}
+
+-keepclassmembers,allowobfuscation class com.bbpos.z.? {
+    <init>();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class com.bbpos.z.y {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.AuthNetField {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.Environment {
+    void ?();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class net.authorize.Merchant {
+    <init>();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.ResponseCode {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.ResponseField {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.ResponseReasonCode {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.TransactionType {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.aim.cardpresent.DeviceType {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.aim.cardpresent.MarketType {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.aim.emv.AnetParcablePoint {
+    void ?();
+}
+
+-keepclassmembers,allowobfuscation class net.authorize.aim.emv.AnetParcablePoint$1 {
+    <init>();
+}
+
+-keep,allowshrinking,allowobfuscation class net.authorize.aim.emv.?
+
+-keepclassmembers,allowobfuscation class net.authorize.aim.emv.? {
+    <init>();
+}
+
+-keepclassmembers,allowobfuscation class net.authorize.aim.emv.?$? {
+    <init>();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.aim.emv.EMVActivity {
+    void ?();
+}
+
+-keepclassmembers,allowobfuscation class net.authorize.aim.emv.EMVActivity$5 {
+    <init>();
+}
+
+-keepclassmembers,allowobfuscation class net.authorize.aim.emv.? {
+    <init>();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.aim.emv.? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.aim.emv.EMVDeviceConnectionType {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.aim.emv.EMVErrorCode {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.aim.emv.EMVStatusCode {
+    void ?();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class net.authorize.aim.emv.EMVTransactionManager {
+    <init>();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.aim.emv.EMVTransactionManager {
+    void ?();
+}
+
+-keepclassmembers,allowobfuscation class net.authorize.aim.emv.EMVTransactionManager$2 {
+    <init>();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.aim.emv.EMVTransactionManager$EMVReaderStatus {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.aim.emv.EMVTransactionManager$TerminalMode {
+    void ?();
+}
+
+-keepclassmembers,allowobfuscation class net.authorize.aim.emv.If {
+    <init>();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.aim.emv.If {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.aim.emv.EMVTransactionType {
+    void ?();
+}
+
+-keepclassmembers,allowobfuscation class net.authorize.aim.emv.? {
+    <init>();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.aim.emv.? {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.aim.emv.OTAUpdateHeadless {
+    void ??();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.aim.emv.OTAUpdateManager {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.aim.emv.OTAUpdateManager$HeadlessOTAUpdateError {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.aim.emv.OTAUpdateManager$HeadlessOTAUpdateResult {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.aim.emv.OTAUpdateManager$HeadlessOTAUpdateStatus {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.aim.emv.OTAUpdateManager$HeadlessOTAUpdateType {
+    void ?();
+}
+
+-keepclassmembers,allowobfuscation class net.authorize.aim.emv.? {
+    <init>();
+}
+
+-keep,allowshrinking,allowobfuscation class net.authorize.aim.emv.?
+
+-keepclassmembers,allowobfuscation class net.authorize.aim.emv.? {
+    <init>();
+}
+
+-keepclassmembers,allowobfuscation class net.authorize.aim.emv.?$? {
+    <init>();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.aim.emv.QuickChipSignatureReviewActivity {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.aim.emv.QuickChipSignatureReviewActivity2 {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.aim.emv.QuickChipTransactionSession {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.aim.emv.SignatureReviewActivity {
+    void ?();
+}
+
+-keepclassmembers,allowobfuscation class net.authorize.aim.emv.? {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class net.authorize.aim.emv.ecdhencryptdecrypt.Crypto {
+    <init>();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.aim.emv.ecdhencryptdecrypt.Crypto {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.aim.emv.ecdhencryptdecrypt.EcdhEncrypt {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.aim.emv.ecdhencryptdecrypt.cryptography.HkDfCipherEngine {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.arb.TransactionType {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.auth.MerchantAuthenticationType {
+    void ?();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class net.authorize.auth.PasswordAuthentication {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class net.authorize.auth.SessionTokenAuthentication {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class net.authorize.auth.TransactionKeyAuthentication {
+    <init>();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.cim.EMVProfileFragment {
+    void ?();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class net.authorize.cim.ProfileTransactionManager {
+    <init>();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.cim.SplitTenderStatus {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.cim.TransactionType {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.cim.ValidationModeType {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.data.CustomerType {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.data.DriversLicense {
+    void ?();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class net.authorize.data.EmailReceipt {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class net.authorize.data.MerchantAccountDetails {
+    <init>();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.data.PaymentMethod {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.data.PermissionType {
+    void ?();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class net.authorize.data.ShippingAddress {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class net.authorize.data.ShippingCharges {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class net.authorize.data.aim.PrepaidCard {
+    <init>();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.data.arb.PaymentSchedule {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.data.arb.SubscriptionStatusType {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.data.arb.SubscriptionUnitType {
+    void ?();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class net.authorize.data.cim.CustomerProfile {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class net.authorize.data.cim.PaymentProfile {
+    <init>();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.data.creditcard.AVSCode {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.data.creditcard.CardType {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.data.creditcard.CreditCard {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.data.creditcard.CreditCardPresenceType {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.data.echeck.BankAccountType {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.data.echeck.ECheckType {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.data.echeck.NOCCode {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.data.echeck.ReturnCode {
+    void ?();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class net.authorize.data.mobile.MerchantContact {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class net.authorize.data.mobile.MerchantProcessor {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class net.authorize.data.mobile.MobileDevice {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class net.authorize.data.mobile.ProcessorCardType {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class net.authorize.data.reporting.BatchDetails {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class net.authorize.data.reporting.BatchStatistics {
+    <init>();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.data.reporting.CAVVResponseType {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.data.reporting.CardCodeResponseType {
+    void ?();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class net.authorize.data.reporting.FDSFilter {
+    <init>();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.data.reporting.FDSFilterActionType {
+    void ?();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class net.authorize.data.reporting.ReportingDetails {
+    <init>();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.data.reporting.ReportingDetails {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.data.reporting.ReportingTransactionType {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.data.reporting.SettlementStateType {
+    void ?();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class net.authorize.data.reporting.TransactionDetails {
+    <init>();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.data.reporting.TransactionStatusType {
+    void ?();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class net.authorize.data.sim.HostedPaymentFormSettings {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class net.authorize.data.sim.HostedReceiptPageSettings {
+    <init>();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.data.swiperdata.SwiperEncodingType {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.data.swiperdata.SwiperEncryptionAlgorithmType {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.data.swiperdata.SwiperModeType {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.data.swiperdata.SwiperOperationType {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.mobile.TransactionType {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.notification.TransactionType {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.reporting.TransactionType {
+    void ?();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class net.authorize.sim.Fingerprint {
+    <init>();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.sim.Fingerprint {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.sim.LinkMethod {
+    void ?();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class net.authorize.sim.Result {
+    <init>();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.sim.Transaction {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.sim.button.ButtonType {
+    void ?();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class net.authorize.sim.button.ImageButton {
+    <init>();
+}
+
+-keepclassmembers,allowoptimization,allowobfuscation class net.authorize.sim.button.TextButton {
+    <init>();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.util.HttpClient {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.xml.MessageType {
+    void ?();
+}
+
+-keepclassmembers,allowshrinking,allowobfuscation class net.authorize.xml.XMLTransaction {
+    void ?();
+}
+
+-keepclassmembers !abstract class !com.google.ads.** extends android.view.View {
+    public <init>(android.content.Context);
+    public <init>(android.content.Context,android.util.AttributeSet);
+    public <init>(android.content.Context,android.util.AttributeSet,int);
+    public void set*(...);
+}
+
+-keepclassmembers !abstract class * {
+    public <init>(android.content.Context,android.util.AttributeSet);
+    public <init>(android.content.Context,android.util.AttributeSet,int);
+}
+
+# Keep onClick handlers for Views and MenuItems as defined in resource xml files.
+-keepclassmembers class * extends android.content.Context {
+    public void *(android.view.View);
+    public *** *(android.view.MenuItem);
+}
+
+-keepclassmembers class * extends android.os.Parcelable {
+    static ** CREATOR;
+}
+
+# Enumerations.
+-keepclassmembers enum  * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+-keepclassmembers enum  * {
+    <fields>;
+    <methods>;
+}
+
+-keepclassmembers enum  * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}

@@ -1,0 +1,53 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:id="@+id/main_layout_consent"
+    android:layout_height="160dp">
+
+    <RelativeLayout
+        android:layout_above="@+id/layout_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_alignParentTop="true"
+            android:id="@+id/text_details"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:textSize="16sp"
+            android:textColor="@color/darkest_grey"
+            android:text="Do you want to create customer profile?"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_buttons"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="40dp"
+            android:layout_height="40dp">
+            <Button
+                android:id="@+id/button_consent_ok"
+                android:text="Yes"
+                android:textSize="14sp"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:background="@drawable/dialog_button_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/button_consent_cancel_dialog"
+                android:layout_marginLeft="5dp"
+                android:text="No"
+                android:layout_weight="1"
+                android:textSize="14sp"
+                android:textColor="@color/darkest_grey"
+                android:background="@null"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+</RelativeLayout>

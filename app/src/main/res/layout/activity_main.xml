@@ -1,0 +1,219 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="30dp">
+    <LinearLayout
+        android:id="@+id/transaction_amount_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView android:text="Set Transaction Amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:textSize="24sp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:id="@+id/editTextAmount"
+            android:gravity="end"
+            android:hint="0.00" />
+    </LinearLayout>
+    <TextView
+        android:text="Status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/transaction_amount_container"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:id="@+id/statustextView" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <Switch
+                    android:id="@+id/switchProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:checked="true"
+                    android:text="Create Customer Profile Before Transaction:  " />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Só delizar?"/>
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/swipe_only_mode_toggle_button"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bluetooth?"/>
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bluetooth_toggle_button"/>
+            </LinearLayout>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Processe o pagamento com EMV"
+                android:id="@+id/emvbutton" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Processe o pagamento com QuickChip"
+                android:id="@+id/quickchipbutton" />
+             
+            <Button
+                android:id="@+id/quick_chip_headless_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="QuickChip com perfil sem cabeçalho" />
+
+            <Button
+                android:id="@+id/quick_chip_head_ful_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="QuickChip com perfil completo" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/inputLayoutCustomerProfileId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:accessibilityLiveRegion="polite"
+                android:contentDescription="Profile Id"
+                android:hint="Profile Id"
+                android:labelFor="@+id/edit_cust_profile_id">
+
+                <EditText
+                    android:id="@+id/edit_cust_profile_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:maxLines="1"
+                    android:textSize="14sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/quick_chip_headless_additional_payment_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="QuickChip com perfil de pagamento adicional sem cabeçalho" />
+
+            <Button
+                android:id="@+id/quick_chip_head_ful_additional_payment_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="QuickChip com perfil de pagamento adicional completo" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Preparar dados com QuickChip"
+                android:id="@+id/preparequichichipdatabutton"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Limpar dados salvos"
+                android:id="@+id/clearsaveddatabutton"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Limpar dados salvos do bluetooth"
+                android:id="@+id/clearsavedbtdevice"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Iniciar escaneamento do bluetooth"
+                android:id="@+id/start_bt_scan_button"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Conectar bluetooth"
+                android:id="@+id/connect_bluetooth_button"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Processe o pagamento com as opções QuickChip e gorjeta"
+                android:id="@+id/process_payment_with_quickchip_and_tip_options" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="QuickChip e valor da gorjeta"
+                    android:id="@+id/process_payment_with_quickchip_and_tip_amount" />
+                <EditText
+                    android:id="@+id/tip_amount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:inputType="numberDecimal"
+                    android:hint="0.00"
+                    android:gravity="end"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/table_number_edit_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:hint="Número da tabela"/>
+                <EditText
+                    android:id="@+id/employee_id_edit_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:hint="ID do Empregado"/>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Apenas autenticação rápida de chip"
+                android:id="@+id/quickchipauthonly" />
+
+            <Button
+                android:id="@+id/last_transaction_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Última transação"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
